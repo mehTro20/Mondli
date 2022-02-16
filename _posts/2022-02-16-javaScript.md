@@ -1,7 +1,7 @@
 ---
 Layout:
 Title:  javaScript
-date:   2022-02-14
+date:   2022-02-16
 Categories:
 
 ---
