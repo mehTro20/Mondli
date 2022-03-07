@@ -16,13 +16,17 @@ I would say smooth and not stressful at all again, most probably because ES6 see
 ## Using the rest parameter with function parameters
 - So if I could try explain the rest parameter to someone who knows nothing about coding, I would say that instead of the person compiling a list of numbers of which the numbers may identify a list of items or lables for people or anything, instead of compiling those list of numbers, they should instead you a sense of ecetera given that the numbers are in a normal linear pattern (counting from 1 upwards without skipping). And so the code basically goes like this: 
 <const product = (n1, n2, n3) => {
-    const args = [n1, n2, n3];
-}> So then instead of writing it that way, all you would do is:
+    const args = [n1, n2, n3]};> 
+So then instead of writing it that way, all you would do is:
 <const product = (...n) => {}>
 which makes the code much more cleaner.
 
 ## Spread Operator
-- So the spread operator is a direct function code in JavaScript ES6 and often looks like: <const mo = ['I', 'am', 'Mondli'];> and that is an array and when I <console.log(...mo)> my output will be "I am Mondli", which of course is very similar to our rest parameter.
+- So the spread operator is a direct function code in JavaScript ES6 and often looks like: 
+<const mo = ['I', 'am', 'Mondli'];>
+ and that is an array and when I 
+ <console.log(...mo)>
+  my output will be "I am Mondli", which of course is very similar to our rest parameter.
 
 ## Using destructuring assignment
 - Destructuring is a JavaScript expression that allows us to extract data from arrays, objects, and maps and set them into new, distinct variables. Destructuring allows us to extract multiple properties, or items, from an array​ at a time.
