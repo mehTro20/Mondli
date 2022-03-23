@@ -24,7 +24,7 @@ array.splice(indexToBeginRemove, numberOfItemsToRemove);
 Concatenation
 - To join items end to end.
 - This method works for both strings and arrays
-- Does not mutate any original array.
+- Does not mutate any original array, code is as following:
 ```
 [1, 2, 3].concat([4, 5])
 
@@ -33,14 +33,14 @@ Concatenation
 ```
 ## Reduce Method
 This method iterates over eah item in an array and returns a single value which can be string or number or array, etc...
-- This is achieved via callback function that is called on each iteration.
+- This is achieved via callback function that is called on each iteration, code is as follows:
 ```
 arr.reduce()
 ```
 ## Sort Method
 - Sorts the elements of an array according to the callback function. That is all I understand with this method, freeCodeCamp didn't really explain it in a way that I understand.
 ## Split Method
-- This method spits a string into an array of strings into an array of strings.
+- This method spits a string into an array of strings into an array of strings, code is as follows:
 ```
 const str = 'Hello dave';
 const splitStr = str.split(' ');
